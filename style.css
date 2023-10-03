@@ -1,0 +1,22 @@
+h1.title {
+    color: darkblue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img.icon {
+    margin: left;
+    float: center;
+}
+body {
+    /**https://stock.adobe.com/search?k=%22ocean+background%22**/
+    background-image: url("images/ocean background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.col {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: darkslateblue;
+}
