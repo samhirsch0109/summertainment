@@ -8,14 +8,14 @@ img.icon {
     margin: left;
     float: center;
 }
-body {
-    /**https://stock.adobe.com/search?k=%22ocean+background%22**/
-    background-image: url("images/ocean background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-  }
+
+body.main {
+  background-image: url("images/ocean background.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
 
 .col {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -24,7 +24,7 @@ body {
 }
 
 a.nav-link {
-    color: white;
+    color: black;
     font-weight: bolder;
     font-family: 'Oswald', sans-serif;
 }
@@ -82,3 +82,6 @@ a.nav-link {
   }
 /**end of nav hover**/
 
+.card {
+  border: 5px double rgb(80, 155, 204);
+}
