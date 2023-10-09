@@ -117,3 +117,18 @@ footer.footer {
   width: 300px;
   display: inline;
 }
+
+carousel.slide {
+  margin: auto;
+}
+
+.carousel {
+margin: auto;
+border: rounded;
+}
+  .w-100 {
+    width: 50% !important;
+    height: 60vh;
+    margin: auto;
+  }
+
