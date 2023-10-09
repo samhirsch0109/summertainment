@@ -80,8 +80,17 @@ a.nav-link {
     transform-origin:left;
     transform:scaleX(1);
   }
-/**end of nav hover**/
+/**end of nav**/
+img.picture {
+  width: 100%;
+   display: inline;
+}
 
 .card {
-  border: 5px double rgb(80, 155, 204);
+  border: 3px groove #0e0101;
+}
+
+.card-body {
+  margin: auto;
+  text-align: center;
 }
