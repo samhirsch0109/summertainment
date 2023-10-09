@@ -94,3 +94,26 @@ img.picture {
   margin: auto;
   text-align: center;
 }
+body {
+  background: radial-gradient(lightblue, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+p.text-end {
+  font-size: larger;
+}
+
+footer.footer {
+  background-color: rgb(220, 203, 203);
+  width: 100%;
+  text-align: center;
+}
+.img-fluid {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  display: inline;
+}
