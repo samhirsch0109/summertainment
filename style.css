@@ -80,8 +80,55 @@ a.nav-link {
     transform-origin:left;
     transform:scaleX(1);
   }
-/**end of nav hover**/
+/**end of nav**/
+img.picture {
+  width: 100%;
+   display: inline;
+}
 
 .card {
-  border: 5px double rgb(80, 155, 204);
+  border: 3px groove #0e0101;
 }
+
+.card-body {
+  margin: auto;
+  text-align: center;
+}
+body {
+  background: radial-gradient(lightblue, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+p.text-end {
+  font-size: larger;
+}
+
+footer.footer {
+  background-color: rgb(220, 203, 203);
+  width: 100%;
+  text-align: center;
+}
+.img-fluid {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  display: inline;
+}
+
+carousel.slide {
+  margin: auto;
+}
+
+.carousel {
+margin: auto;
+border: rounded;
+}
+  .w-100 {
+    width: 50% !important;
+    height: 60vh;
+    margin: auto;
+  }
+
