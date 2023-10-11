@@ -1,6 +1,7 @@
 h1.text-center {
     color: darkblue;
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
 }
 
 img.icon {
