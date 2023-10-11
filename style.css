@@ -28,59 +28,6 @@ a.nav-link {
     font-weight: bolder;
     font-family: 'Oswald', sans-serif;
 }
-/**https://getdevdone.com/blog/our-favorite-navigation-menu-effects.html--**/
-  
-  ul li{
-    list-style:none;
-    margin:0 20px;
-  }
-  
-  ul li a{
-    display: block;
-    position:relative;
-    text-decoration:none;
-    padding:5px;
-    font-size:9px;
-    font-family: sans-serif;
-    color:#fff;
-    transition:0.5s;
-  }
-  
-  ul:hover li a{
-    transform:scale(1.5);
-    opacity:0.2;
-    filter:blur(5px);
-  }
-  
-  ul li a:hover{
-    transform:scale(2);
-    opacity:1;
-    filter:blur(0);
-    text-decoration:none;
-    color:white;
-  }
-  
-  ul li a:before{
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background: rgb(170, 168, 199);
-    transition:0.5s;
-    transform-origin:right;
-    transform:scaleX(0);
-    z-index:-1;
-    color: white;
-  }
-  
-  ul li a:hover:before{
-    transition:transform 0.5s;
-    transform-origin:left;
-    transform:scaleX(1);
-  }
-/**end of nav**/
 img.picture {
   width: 100%;
    display: inline;
@@ -114,8 +61,7 @@ footer.footer {
 .img-fluid {
   margin: auto;
   text-align: center;
-  width: 300px;
-  display: inline;
+  width: 150px;
 }
 
 carousel.slide {
@@ -126,9 +72,51 @@ carousel.slide {
 margin: auto;
 border: rounded;
 }
+
   .w-100 {
     width: 50% !important;
     height: 60vh;
     margin: auto;
   }
+  .p-12 {
+    color: darkblue;
+  } 
 
+.hover-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hover-nav li {
+  float: left;
+}
+
+.hover-nav li a {
+  position: relative;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+  z-index: 0;
+}
+
+li a::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #8ca8ee;
+  z-index: -1;
+  transform: scale(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+li a:hover::before,
+li a:focus::before {
+  transform: scale(1);
+}
