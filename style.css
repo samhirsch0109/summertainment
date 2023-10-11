@@ -1,6 +1,5 @@
-h1.title {
+h1.text-center {
     color: darkblue;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -73,11 +72,12 @@ margin: auto;
 border: rounded;
 }
 
-  .w-100 {
-    width: 50% !important;
-    height: 60vh;
+ .w-100 {
+   width: 50% !important;
+   height: 60vh;
     margin: auto;
   }
+
   .p-12 {
     color: darkblue;
   } 
