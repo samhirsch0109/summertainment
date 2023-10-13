@@ -83,6 +83,8 @@ border: rounded;
 
   .p-12 {
     color: darkblue;
+    margin: auto;
+    text-align: center;
   } 
 
 .hover-nav ul {
